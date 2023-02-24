@@ -1,0 +1,131 @@
+:root{
+    --color-212529:#212529;
+    --color-ffd333:#ffd333;
+    --color-47ad24:#47ad24;
+    --color-e52e2e:#e52e2e;
+    --color-828599:#828599;
+    --color-3d464d:#3d464d;
+    --color-ced4da:#ced4da;
+
+}
+.red{
+    color:var(--color-e52e2e);
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif !important;
+}
+.green{
+    color:var(--color-47ad24);
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.quill{
+    background:white;
+}
+
+.form-control{
+    box-shadow: none;
+    border-color: var(--color-ced4da);
+}
+
+
+.title{
+    font-size: 28px;
+    font-family: 'Roboto',sans-serif !important;
+}
+.sub-title{
+    font-size: 24px;
+    font-family: 'Roboto',sans-serif !important;
+}
+.desc{
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif !important;
+    color: var(--color-828599);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.maincontainer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100vw;
+    height:100vh;
+}
+
+.monkeylogin{
+    width:350px;
+    height:auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 40px;
+}
+
+.animcon{
+    background-color: #fff;
+    overflow: hidden;
+    margin-top: 20px;
+    height:170px;
+    width:170px;
+    border-radius: 50%;
+    background-image: url(https://raw.githubusercontent.com/naaficodes/Monkey-Login/master/images/monkey.gif);
+    background-size: 90% 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.animcon img{
+    margin-top: 110%;
+    height: 170px;
+    width: 170px;
+    transition: 1s;
+}
+
+.formcon{
+    margin-top: 10px;
+}
+
+.input{
+    height:40px;
+    width:300px;
+    border-radius: 20px;
+    border: none;
+    color:#5a5449;
+    text-indent: 15px;
+    font-size: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.sbutton{
+    text-indent: 0px;
+    height: 40px;
+    width:300px;
+    margin-top:10px;
+    background-color: #1b8c1b66;
+    transition: "2s";
+    border:none;
+    color:#fff;
+    font-weight: bolder;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    outline:none;
+    border-radius: 20px;
+}
+
+.sbutton:hover{
+    color:#5a5449;
+    cursor: pointer;
+}
+
+.foot{
+    color: #5a5449;
+    font-weight: lighter;
+    padding: 20px 0;
+}
